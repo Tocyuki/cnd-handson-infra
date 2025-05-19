@@ -35,4 +35,6 @@ spec:
           limits:
             memory: 512Mi
             cpu: 300m
+        securityContext:
+          privileged: true
       terminationGracePeriodSeconds: 15
